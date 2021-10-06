@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список</title>
+</head>
+
+<body>
+    <ul style="list-style-type:square;">
+
+        <!-- перший рядок головного списку -->
+        <li>
+            <!-- рядок без символу нумерації, але з відступом другого рівня -->
+            <ul style="list-style-type:none;">
+                <li>Українська мова</li>
+            </ul>
+            <!-- список другого рівня з римською нумерацією, починаючи з символу і -->
+            <ol type="i">
+                <li>Граматика</li>
+                <li>Орфографія</li>
+            </ol>
+        </li>
+
+        <!-- другий рядок головного списку -->
+        <li>
+            <ul style="list-style-type:none;">
+                <li>Історія України</li>
+            </ul>
+            <ol type="i" start="3">
+                <li>Історія Київської Русі</li>
+                <li>Історія козацтва</li>
+            </ol>
+        </li>
+
+        <!-- третій рядок головного списку -->
+        <li>
+            <ul style="list-style-type:none;">
+                <li>Філософія</li>
+            </ul>
+            <ol type="i" start="5">
+                <li>Древньогрецькі філософи</li>
+                <li>Філософія сучасності</li>
+                <li>Проблеми наукового пізнання</li>
+            </ol>
+        </li>
+    </ul>
+</body>
+
+</html>
